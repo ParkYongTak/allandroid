@@ -7,10 +7,23 @@
     <ImageView android:id="@+id/test_image_view1"
     		  android:src="@drawable/test_image_view_pic1"
     		  android:scaleType="center"
-    		  android:maxWidth="100px"
-    		  android:maxHeight="10px"
+    		  android:maxWidth="320dp"
+    		  android:maxHeight="200dp"
     		  android:adjustViewBounds="true"
     		  android:layout_width="fill_parent"
-    		  android:layout_height="fill_parent"
+    		  android:layout_height="wrap_content"
     		  />
+	  
+        <ImageView android:id="@+id/androboy"
+    		  android:src="@drawable/androboy"
+    		  android:scaleType="fitXY"
+    		  android:maxWidth="320dp"
+    		  android:maxHeight="200dp"
+    		  android:adjustViewBounds="true"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="wrap_content"
+    		  />
+    
+    
+        		  
 </LinearLayout>
