@@ -8,6 +8,8 @@
     <string name="Button2">바위</string>
     <string name="Button3">보자기</string>
     <string name="text_view_string1">아무거나 하나 내세요. 꿀리면 죽으시던가 -__-</string>        
+    <string name="text_view_string2">아무거나 하나 내세요. 꿀리면 죽으시던가 -__-</string>        
+    <string name="text_view_string3">아무거나 하나 내세요. 꿀리면 죽으시던가 -__-</string>        
     
 
 </resources>
