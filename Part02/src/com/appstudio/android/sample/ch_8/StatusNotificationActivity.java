@@ -36,8 +36,8 @@ public class StatusNotificationActivity extends Activity {
 			NotificationManager mNotificationManager = (NotificationManager)getSystemService(ns);
 			
 			int icon = R.drawable.notification_icon;
-			CharSequence tickerText = "상태바 노티피케이션";
-			long when = System.currentTimeMillis();
+			CharSequence tickerText = "상태바 노티피케이션!!!";
+			long when = System.currentTimeMillis() + 3000;
 
 			Notification.Builder builder = new Notification.Builder(StatusNotificationActivity.this);
 			builder.setSmallIcon(icon).setTicker(tickerText).setWhen(when);

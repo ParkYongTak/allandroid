@@ -42,6 +42,10 @@ public class ChoiceDialogActivity extends Activity {
 		    	builder1.setTitle("다음 과일 중 한개만 골라 주세요")
 		    	        .setSingleChoiceItems(items, -1, new DialogInterface.OnClickListener() {
 		    	    public void onClick(DialogInterface dialog, int item) {
+		    	    	// reset
+		    	    	for(int i = 0 ; i < selections.length ; i++){
+		    	    		selections[i] = false;
+		    	    	}
 		    	    	selections [item] = true;
 		    	    	Toast.makeText(getApplicationContext(), "선택된 아이템은 "+items[item] + " 입니다.", Toast.LENGTH_SHORT).show();
 		    	    }

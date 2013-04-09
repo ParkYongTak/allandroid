@@ -4,7 +4,7 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-        <LinearLayout
+    <LinearLayout
         android:id="@+id/linear_test"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -12,35 +12,41 @@
         android:gravity="center"
         android:orientation="horizontal" >
 
-        <ImageView android:id="@+id/image1"
-    		  android:src="@drawable/image1"
-    		  android:scaleType="fitXY"
-    		  android:maxWidth="320dp"
-    		  android:maxHeight="200dp"
-    		  android:adjustViewBounds="true"
-    		  android:layout_width="wrap_content"
-    		  android:layout_height="wrap_content"
-    		  />
-        <ImageView android:id="@+id/image2"
-    		  android:src="@drawable/image2"
-    		  android:scaleType="fitXY"
-    		  android:maxWidth="320dp"
-    		  android:maxHeight="200dp"
-    		  android:adjustViewBounds="true"
-    		  android:layout_width="wrap_content"
-    		  android:layout_height="wrap_content"
-    		  />
-        <ImageView android:id="@+id/image3"
-    		  android:src="@drawable/image3"
-    		  android:scaleType="fitXY"
-    		  android:maxWidth="320dp"
-    		  android:maxHeight="200dp"
-    		  android:adjustViewBounds="true"
-    		  android:layout_width="wrap_content"
-    		  android:layout_height="wrap_content"
-    		  />                
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="200dp"
+            android:maxWidth="320dp"
+            android:onClick="myClickHandler"
+            android:padding="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/image1_btn" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="200dp"
+            android:maxWidth="320dp"
+            android:onClick="myClickHandler"
+            android:scaleType="fitXY"
+            android:src="@drawable/image2" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="200dp"
+            android:maxWidth="320dp"
+            android:onClick="myClickHandler"
+            android:scaleType="fitXY"
+            android:src="@drawable/image3" />
     </LinearLayout>
-    
+
     <LinearLayout
         android:id="@+id/linear_test"
         android:layout_width="fill_parent"
@@ -78,7 +84,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >
-
 
         <TextView
             android:id="@+id/test_text_view1"
